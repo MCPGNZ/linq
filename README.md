@@ -7,7 +7,7 @@ Wannabe fast and simple in use LINQ implementation in C++,
 - [x] vector
 - [ ] array
 - [ ] list
-- 
+
 ## Features
 * lazy evaluation of skip/take/range methods
 * basic type checking for passed lambda expresions
