@@ -1,10 +1,11 @@
-
 #include <type_traits>
-#include "Effigia\Utility\Traits.h"
+#include "FunctionTraits.h"
 
 namespace pk
 {
     #pragma region Helper Macros
+    #define ENABLE_PARAM(cond) typename std::enable_if< cond >::type* = 0
+
     #define METHOD(X)   \
      __forceinline Internals::##X##_method X()  \
      {                                          \
