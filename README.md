@@ -1,4 +1,4 @@
-# mcplinq v0.1
+# linq v0.1.0
 
 Wannabe fast and simple in use LINQ implementation in C++,
 
